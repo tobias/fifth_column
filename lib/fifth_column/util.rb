@@ -1,5 +1,5 @@
 module FifthColumn
-  module Util
+  module UtilMethods
     def caching_method_names(method)
       washed_method = method.to_s.sub(/([?!=])$/, '')
       punctuation = $1
@@ -10,5 +10,14 @@ module FifthColumn
     def cache_column(method)
       "#{method}_cache".to_sym
     end
+
+    def logger
+      RAILS_DEFAULT_LOGGER
+    end
   end
+  
+  class Util
+    extend UtilMethods
+  end
+
 end

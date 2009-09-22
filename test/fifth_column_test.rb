@@ -43,5 +43,11 @@ class FifthColumnTest < Test::Unit::TestCase
     end
     
   end
+  
+  context 'clearing values' do
+    context 'on an instance' do
+      should 'test this'
+    end
+  end
 
 end

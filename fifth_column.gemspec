@@ -23,7 +23,12 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "fifth_column.gemspec",
      "lib/fifth_column.rb",
+     "lib/fifth_column/cache_machine.rb",
+     "lib/fifth_column/class_methods.rb",
+     "lib/fifth_column/instance_methods.rb",
+     "lib/fifth_column/util.rb",
      "test/fifth_column_test.rb",
      "test/test_helper.rb"
   ]
